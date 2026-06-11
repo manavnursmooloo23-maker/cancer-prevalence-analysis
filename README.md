@@ -57,7 +57,7 @@ The data includes:
 
 ## 📊 Dashboard Walkthrough
 
-1. What We Are Looking At
+### 1. What We Are Looking At
 
 ![Dashboard Overview](images/VCRDataPrevDashboard.png)
 
