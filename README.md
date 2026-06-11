@@ -168,12 +168,17 @@ This highlights the importance of interpreting prevalence data carefully, as it 
 
 ## ⚙️ Technical Approach
 
-* **Tool:** Microsoft Power BI
-* **Data Processing:** R and Excel
-* **Data Modelling:** Measures, relationships, and calculated fields
-* **Design:** Interactive visuals, slicers, and custom tooltips
-* **Governance:** Small-cell suppression and rounding for privacy compliance
+- **Power BI**: Built the dashboard and interactive visuals  
 
+- **Data Processing (R & Excel)**: Cleaned and prepared data before loading into Power BI  
+
+- **Data Modelling**: Created DAX measures and managed relationships to ensure accurate calculations  
+
+- **Design**: Developed charts, slicers, and custom tooltips for user interaction  
+
+- **Validation**: Cross-checked outputs to ensure consistency and correctness  
+
+- **Governance**: Applied small-cell suppression and rounding to maintain data privacy  
 ---
 
 ## 🚀 Conclusion
