@@ -58,12 +58,6 @@ This ensures comparisons are **standardised and not biased by population size**.
 
 ---
 
-## 📊 Dashboard Preview
-
-![Full Dashboard](images/fullviewofVCRdashboard.png)
-
----
-
 ## 📊 Dashboard Walkthrough
 
 ### 1. Prevalence Trend Over Time
