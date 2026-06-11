@@ -128,10 +128,6 @@ This demonstrates how the dashboard supports comparison across both **overall sc
 
 #### (iii) Socio-economic and Geographic Variation
 
-![Geographic Insight](images/f6baccfb-2e4b-47fd-878e-8709140ee21e.png)
-
-The dashboard also highlights variation in cancer prevalence across socio-economic groups and geographic regions.
-
 From the socio-economic breakdown:
 
 * Prevalence increases from **most disadvantaged** to **least disadvantaged groups**
@@ -158,9 +154,6 @@ However, this does not necessarily indicate a lower cancer burden. Instead, it m
 * Inequalities in survival outcomes
 
 This highlights the importance of interpreting prevalence data carefully, as it reflects both **disease occurrence and survival**, and can reveal underlying disparities in healthcare access and outcomes.
-
-
-
 
 ---
 
