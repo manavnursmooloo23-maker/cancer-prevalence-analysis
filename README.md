@@ -2,109 +2,72 @@
 
 ## 🔍 Overview
 
-This project involved designing and developing the **Cancer Prevalence tab from scratch** for the Cancer Council Victoria Data Explorer using real-world data from the Victorian Cancer Registry (VCR).
+This project involved designing and developing the **Cancer Prevalence tab** for the Cancer Council Victoria Data Explorer using real-world data from the Victorian Cancer Registry (VCR).
 
 The dashboard provides a **public-facing, interactive tool** that enables clinicians, researchers, policymakers, and the general public to explore cancer prevalence trends in a clear and accessible way.
 
 ---
 
-## 🎯 Project Objective
+## 📊 Data Description
 
-* Analyse cancer prevalence trends over time
-* Compare demographic and regional differences
-* Deliver an intuitive, user-friendly dashboard
-* Ensure compliance with healthcare data governance standards
+The dashboard is built using cancer prevalence data from the Victorian Cancer Registry (VCR), structured across multiple datasets to capture demographic, clinical, and geographic dimensions.
 
----
+The data includes:
 
-## 📊 Understanding the Dashboard
-
-The dashboard focuses on analysing the **number of people living with cancer (prevalence)** for all malignant tumours.
-
-It is configured to display:
-
-* **Measure:** Number (total count of cases)
-* **Population:** Males and females
-* **Prevalence window:** People diagnosed in the past 5 years
-
-### 🧠 What is Cancer Prevalence?
-
-Cancer prevalence refers to the **number of people who are still alive and have been diagnosed with cancer within a specified time period**.
-
-For example:
-
-* 5-year prevalence = people alive today diagnosed in the past 5 years
-* 10-year prevalence = people alive today diagnosed in the past 10 years
-
-Prevalence captures both:
-
-* New diagnoses (incidence)
-* Survival over time
+* **Timepoints** – Year-based snapshots representing prevalence at a specific point in time
+* **Prevalence window (LastXYears)** – Defines the time horizon, representing people diagnosed within that period who are still alive
+* **Sex** – Male, Female, and Persons
+* **Age groups** – (e.g. 0–24, 25–49, 50–69, 70–79, 80+)
+* **Cancer types** – Grouped into main, sub, and detailed tumour classifications
+* **Geographical and socio-economic groupings** – Including remoteness, SEIFA, and Integrated Cancer Services (ICS) regions
 
 ---
 
-### 🔄 Number vs Rate
+## 📊 Key Dataset Labels
 
-* **Number** represents the total number of cases
-* **Rate (per 100,000 population)** allows fair comparison across groups
+### 🟨 Core Time Variables
 
-Rates are used to compare:
+* **TimePoints** – Year of data snapshot
+* **LastXYears** – Prevalence window (e.g. 1, 5, 10, 20 years)
 
-* Regions (metro vs regional)
-* Socio-economic groups
-* Population groups (e.g. Aboriginal vs non-Aboriginal)
+### 🟩 Demographic Variables
 
-This ensures comparisons are **standardised and not biased by population size**.
+* **Sex** – Male, Female, Persons
+* **timepoint_ageg** – Age group classification
 
----
+### 🟦 Cancer Classification
 
-## 📊 Dashboard Walkthrough
+* **TUMOUR_GROUP_ID** – Unique cancer identifier
+* **tumourgroup_main** – Main category (e.g. breast, lung)
+* **tumourgroup_sub** – Sub-category
+* **tumourgroup_detail** – Detailed classification
 
-### 1. Prevalence Trend Over Time
+### 🟪 Prevalence Measures
 
-![Trend](images/DashboardCustomisedHoverText-Trend.png)
+* **Total_Prevalence** – Number of people living with cancer
+* **Perc_of_Vic_pop_within_age_group** – Percentage within age group
 
-Shows a consistent increase in cancer prevalence over time for both males and females. This reflects improved survival rates alongside ongoing diagnoses.
+### 🟫 Disparity Variables
 
----
-
-### 2. Age Group Distribution
-
-![Age](images/VCRDataPrevDashboard.png)
-
-Highlights that cancer prevalence is significantly higher in older populations (70+), indicating a greater long-term disease burden.
-
----
-
-### 3. Cancer Type Comparison
-
-![Bar](images/DashboardCustomisedHoverText-Bar.png)
-
-Compares prevalence across cancer types, helping identify which cancers contribute most to overall burden.
+* **SEIFA** – Socio-economic grouping
+* **Remoteness / Region** – Geographic classification
+* **Integrated Cancer Services (ICS)** – Health service regions
 
 ---
 
-### 4. Interactive Features
+1. What We Are Looking At
 
-![Hover](images/DashboardInfoPopUps.png)
 
-Custom tooltips and information panels improve usability by providing additional context without cluttering the dashboard.
 
----
 
-## 📊 Key Insights
+The dashboard presents a high-level view of cancer prevalence in Victoria. In this view, we are analysing the number of people living with cancer (prevalence) for:
 
-* Cancer prevalence has increased consistently over time, reflecting improved survival and continued incidence
+All malignant tumours (default selection)
+Both males and females
+People diagnosed within the past 5 years (5-year prevalence)
 
-* Males show higher prevalence than females, both in total cases and per 100,000 population
+This provides an immediate understanding of the scale of cancer prevalence in the population.
 
-* Older age groups (70+) carry the highest burden of cancer prevalence
-
-* Major cities show higher prevalence compared to regional areas, reflecting population concentration and better access to healthcare
-
-* Socio-economic patterns suggest higher prevalence in less disadvantaged groups, likely due to improved survival and access to care
-
-* Lower observed prevalence in some population groups may indicate disparities in diagnosis and healthcare access rather than lower disease burden
 
 ---
 
