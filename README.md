@@ -189,4 +189,4 @@ This project demonstrates the ability to transform complex healthcare data into 
 
 ## 🔗 Links
 
-👉 [View Portfolio Case Study](https://github.com/manavnursmooloo23-maker/portfolio-proj)
+👉 [View Portfolio Case Study](https://github.com/manavnursmooloo23-maker/portfolio-proj/projects/cancer-dashboard.md)
