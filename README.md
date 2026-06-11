@@ -63,9 +63,9 @@ The data includes:
 
 The dashboard presents a high-level view of cancer prevalence in Victoria. In this view, we are analysing the number of people living with cancer (prevalence) for:
 
-All malignant tumours (default selection)
-Both males and females
-People diagnosed within the past 5 years (5-year prevalence)
+* All malignant tumours (default selection)
+* Both males and females
+* People diagnosed within the past 5 years (5-year prevalence)
 
 This provides an immediate understanding of the scale of cancer prevalence in the population.
 
