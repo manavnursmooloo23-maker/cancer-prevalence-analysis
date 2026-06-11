@@ -1,77 +1,144 @@
-# Cancer Prevalence Analysis
+# 📈 Cancer Prevalence Dashboard (Victorian Cancer Registry)
 
-## Overview
+## 🔍 Overview
 
-This repository contains a Power BI portfolio project that explores cancer prevalence in Victoria using data from the Victorian Cancer Registry (VCR). The dashboard is designed as an interactive exploratory tool for placement interviews, demonstrating strong analytics, data storytelling, and public health insights.
+This project involved designing and developing the **Cancer Prevalence tab from scratch** for the Cancer Council Victoria Data Explorer using real-world data from the Victorian Cancer Registry (VCR).
 
-## Project Objective
+The dashboard provides a **public-facing, interactive tool** that enables clinicians, researchers, policymakers, and the general public to explore cancer prevalence trends in a clear and accessible way.
 
-Deliver a clean, user-focused Power BI dashboard that helps stakeholders understand cancer prevalence trends, demographic differences, and geographic variation. The project focuses on:
+---
 
-- Prevalence of people alive with a history of cancer over time
-- Gender and age-group comparisons
-- Regional distribution and socioeconomic variation
-- Narrative-ready visuals with custom tooltips and information pop-ups
+## 🎯 Project Objective
 
-## Key Features
+* Analyse cancer prevalence trends over time
+* Compare demographic and regional differences
+* Deliver an intuitive, user-friendly dashboard
+* Ensure compliance with healthcare data governance standards
 
-- Interactive prevalence dashboard with top-level filters for:
-  - Number or rate
-  - Female, male, and persons
-  - Cancer type selection
-  - Time period selection (e.g. past 5 years)
-- Trend analysis showing rising cancer prevalence over time
-- Age-group prevalence breakdown to highlight highest burden cohorts
-- Gender comparison cards with clear case counts and prevalence per 100,000
-- Geographic bar charts showing variation across Victorian regions and socioeconomic quintiles
-- Contextual info pop-ups to guide non-technical users and support data interpretation
+---
 
-## Visual Highlights from the Attached Images
+## 📊 Understanding the Dashboard
 
-- `fullviewofVCRdashbaord.png`: Full dashboard layout showing prevalence trends, age group distributions, gender donut chart, and geographic disparity bars.
-- `DashboardCustomisedHoverText-Bar.png`: Custom hover text for interactive bar visuals, enabling better data exploration by age, gender, and region.
-- `DashboardCustomisedHoverText-Trend.png`: Trend-specific tooltip customization that supports time-series interpretation and comparison.
-- `DashboardInfoPopUps.png`: In-dashboard information panels explaining prevalence definitions, calculation boundaries, and important interpretation notes.
+The dashboard focuses on analysing the **number of people living with cancer (prevalence)** for all malignant tumours.
 
-## Business Value
+It is configured to display:
 
-This dashboard supports placement assessment by delivering actionable insights for healthcare planning and decision-making:
+* **Measure:** Number (total count of cases)
+* **Population:** Males and females
+* **Prevalence window:** People diagnosed in the past 5 years
 
-- Identify rising prevalence trends to support capacity planning
-- Compare male and female prevalence to guide targeted health programs
-- Highlight older age groups with the highest cancer burden
-- Reveal geographic and socioeconomic disparities across Victoria
-- Provide a single, intuitive interface for stakeholders and health planners
+### 🧠 What is Cancer Prevalence?
 
-## Technical Approach
+Cancer prevalence refers to the **number of people who are still alive and have been diagnosed with cancer within a specified time period**.
 
-- Tool: Microsoft Power BI Desktop
-- Data modeling: structured relationships, measures, calculated columns, and slicers
-- Visual design: consistent color palette, readable labels, and accessible layout
-- Interaction design: slicers, cross-filtering, and custom tooltip/card visuals
-- Documentation: in-dashboard info pop-ups and annotations for user guidance
+For example:
 
-## How to Use
+* 5-year prevalence = people alive today diagnosed in the past 5 years
+* 10-year prevalence = people alive today diagnosed in the past 10 years
 
-1. Open the Power BI file in Power BI Desktop.
-2. Use the top slicers to choose:
-   - Number or rate
-   - Female, male, or persons
-   - Cancer type and time window
-3. Explore the prevalence trend chart, age-group bars, gender summary cards, and geography bars.
-4. Hover over visuals for custom tooltips and click the info icons for definitions and guidance.
+Prevalence captures both:
 
-## Placement Pitch
+* New diagnoses (incidence)
+* Survival over time
 
-This project is a strong candidate for placement because it demonstrates:
+---
 
-- Practical Power BI dashboard development skills
-- Ability to transform health registry data into an executive-ready story
-- Effective use of interactive visuals and user guidance
-- Focus on business questions and insight-driven analytics
-- Attention to accessibility and clarity for a non-technical audience
+### 🔄 Number vs Rate
 
-## Notes
+* **Number** represents the total number of cases
+* **Rate (per 100,000 population)** allows fair comparison across groups
 
-The dashboard is built for exploratory analysis and should be used as a single-point snapshot for planning decisions. It is not intended for clinical diagnosis but for prevalence awareness and resource allocation discussion.
+Rates are used to compare:
 
+* Regions (metro vs regional)
+* Socio-economic groups
+* Population groups (e.g. Aboriginal vs non-Aboriginal)
+
+This ensures comparisons are **standardised and not biased by population size**.
+
+---
+
+## 📊 Dashboard Preview
+
+![Full Dashboard](images/fullviewofVCRdashboard.png)
+
+---
+
+## 📊 Dashboard Walkthrough
+
+### 1. Prevalence Trend Over Time
+
+![Trend](images/DashboardCustomisedHoverText-Trend.png)
+
+Shows a consistent increase in cancer prevalence over time for both males and females. This reflects improved survival rates alongside ongoing diagnoses.
+
+---
+
+### 2. Age Group Distribution
+
+![Age](images/VCRDataPrevDashboard.png)
+
+Highlights that cancer prevalence is significantly higher in older populations (70+), indicating a greater long-term disease burden.
+
+---
+
+### 3. Cancer Type Comparison
+
+![Bar](images/DashboardCustomisedHoverText-Bar.png)
+
+Compares prevalence across cancer types, helping identify which cancers contribute most to overall burden.
+
+---
+
+### 4. Interactive Features
+
+![Hover](images/DashboardInfoPopUps.png)
+
+Custom tooltips and information panels improve usability by providing additional context without cluttering the dashboard.
+
+---
+
+## 📊 Key Insights
+
+* Cancer prevalence has increased consistently over time, reflecting improved survival and continued incidence
+
+* Males show higher prevalence than females, both in total cases and per 100,000 population
+
+* Older age groups (70+) carry the highest burden of cancer prevalence
+
+* Major cities show higher prevalence compared to regional areas, reflecting population concentration and better access to healthcare
+
+* Socio-economic patterns suggest higher prevalence in less disadvantaged groups, likely due to improved survival and access to care
+
+* Lower observed prevalence in some population groups may indicate disparities in diagnosis and healthcare access rather than lower disease burden
+
+---
+
+## 💡 Business Value
+
+* Supports data-driven healthcare planning and resource allocation
+* Identifies high-risk demographic and geographic groups
+* Highlights inequalities in healthcare access and outcomes
+* Improves accessibility of complex public health data for non-technical users
+
+---
+
+## ⚙️ Technical Approach
+
+* **Tool:** Microsoft Power BI
+* **Data Processing:** R and Excel
+* **Data Modelling:** Measures, relationships, and calculated fields
+* **Design:** Interactive visuals, slicers, and custom tooltips
+* **Governance:** Small-cell suppression and rounding for privacy compliance
+
+---
+
+## 🚀 Conclusion
+
+This project demonstrates the ability to transform complex healthcare data into a **clear, interactive, and insight-driven dashboard**, supporting real-world decision-making in public health.
+
+---
+
+## 🔗 Links
+
+👉 [View Portfolio Case Study](https://github.com/manavnursmooloo23-maker/portfolio-proj)
