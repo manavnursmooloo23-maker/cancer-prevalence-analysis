@@ -55,10 +55,11 @@ The data includes:
 
 ---
 
+📊 Dashboard Walkthrough
+
 1. What We Are Looking At
 
-
-
+![Dashboard Overview](images/VCRDataPrevDashboard.png)
 
 The dashboard presents a high-level view of cancer prevalence in Victoria. In this view, we are analysing the number of people living with cancer (prevalence) for:
 
@@ -67,6 +68,60 @@ Both males and females
 People diagnosed within the past 5 years (5-year prevalence)
 
 This provides an immediate understanding of the scale of cancer prevalence in the population.
+
+### 2. Interpreting the Data Through the Dashboard
+
+#### (i) Subgroup Insight Using Hover Interaction
+
+![Hover Insight](images/DashboardCustomisedHoverText-Bar.png)
+
+The dashboard’s hover functionality allows users to drill down into specific subgroups for deeper analysis.
+
+For example, when hovering over **Victorian males aged 50–59 diagnosed in the past 5 years**, the dashboard reveals:
+
+* **Total cases:** 9,165
+* **Rate per 100,000:** 78.21
+
+This demonstrates how users can move beyond aggregated views and explore **granular, subgroup-level insights**.
+
+The combination of:
+
+* **Absolute numbers** (total cases)
+* **Population-adjusted rates**
+
+enables more meaningful interpretation. While the number highlights the **scale of cases**, the rate allows fair comparison across different population groups.
+
+This shows that cancer prevalence is not limited to older age groups, with **middle-aged populations also contributing significantly to overall disease burden**.
+
+---
+
+#### (ii) Gender-Based Trend and Comparison
+
+![Gender Insight](images/DashboardCustomisedHoverText-Trend.png)
+
+The dashboard provides a clear comparison of cancer prevalence between males and females, both over time and in total.
+
+From the summary:
+
+* **Males:** 73,641 cases (53.5%)
+* **Females:** 63,900 cases (46.5%)
+
+When adjusted for population size:
+
+* **Males:** 2,129 per 100,000
+* **Females:** 1,800 per 100,000
+
+This indicates that males experience a **higher cancer prevalence both in total cases and when standardised for population size**.
+
+The higher rate confirms that this difference is not driven solely by population size, but reflects a **genuine variation in prevalence between genders**.
+
+Additionally, the trend over time shows a steady increase for both groups, reflecting the combined effect of:
+
+* Improved survival rates
+* Continued incidence of new cancer cases
+
+This demonstrates how the dashboard supports comparison across both **overall scale (number)** and **relative burden (rate)**, enabling more informed analysis.
+
 
 
 ---
