@@ -69,6 +69,8 @@ People diagnosed within the past 5 years (5-year prevalence)
 
 This provides an immediate understanding of the scale of cancer prevalence in the population.
 
+---
+
 ### 2. Interpreting the Data Through the Dashboard
 
 #### (i) Subgroup Insight Using Hover Interaction
