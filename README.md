@@ -124,6 +124,42 @@ Additionally, the trend over time shows a steady increase for both groups, refle
 
 This demonstrates how the dashboard supports comparison across both **overall scale (number)** and **relative burden (rate)**, enabling more informed analysis.
 
+---
+
+#### (iii) Socio-economic and Geographic Variation
+
+![Geographic Insight](images/f6baccfb-2e4b-47fd-878e-8709140ee21e.png)
+
+The dashboard also highlights variation in cancer prevalence across socio-economic groups and geographic regions.
+
+From the socio-economic breakdown:
+
+* Prevalence increases from **most disadvantaged** to **least disadvantaged groups**
+
+This suggests that higher prevalence may be associated with:
+
+* Better access to healthcare
+* Earlier detection
+* Improved survival rates
+
+Across geography:
+
+* **Major cities** show significantly higher prevalence compared to regional areas
+* Variation is also visible across different Integrated Cancer Service (ICS) regions
+
+Additionally, differences between population groups are observed, such as:
+
+* Lower recorded prevalence for **Aboriginal Victorians** compared to other populations
+
+However, this does not necessarily indicate a lower cancer burden. Instead, it may reflect:
+
+* Differences in access to healthcare
+* Variations in diagnosis rates
+* Inequalities in survival outcomes
+
+This highlights the importance of interpreting prevalence data carefully, as it reflects both **disease occurrence and survival**, and can reveal underlying disparities in healthcare access and outcomes.
+
+
 
 
 ---
